@@ -35,6 +35,18 @@
     },
     "subtitle": {
       "type": "string"
+    },
+    "tags": {
+      "type": "customField",
+      "options": [
+        "Vallenato",
+        "Caja",
+        "Acordeon",
+        "Cantante A",
+        "Cantante B"
+      ],
+      "required": true,
+      "customField": "plugin::multi-select.multi-select"
     }
   }
 }
