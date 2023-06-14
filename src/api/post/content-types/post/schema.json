@@ -43,7 +43,8 @@
         "Caja",
         "Acordeon",
         "Cantante A",
-        "Cantante B"
+        "Cantante B",
+        "Atemporal"
       ],
       "required": true,
       "customField": "plugin::multi-select.multi-select"
