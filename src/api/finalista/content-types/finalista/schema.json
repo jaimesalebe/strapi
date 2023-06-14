@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "finalistas",
+  "info": {
+    "singularName": "finalista",
+    "pluralName": "finalistas",
+    "displayName": "Finalista"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "singer": {
+      "type": "string",
+      "required": true
+    },
+    "songName": {
+      "type": "string",
+      "required": true
+    },
+    "singerImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "song": {
+      "allowedTypes": [
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
