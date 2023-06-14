@@ -43,11 +43,15 @@
         "Caja",
         "Acordeon",
         "Cantante A",
-        "Cantante B",
-        "Atemporal"
+        "Cantante B"
       ],
       "required": true,
       "customField": "plugin::multi-select.multi-select"
+    },
+    "atemporal": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
